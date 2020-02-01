@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
     <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,16 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Phrases"
-            android:label="Phrases"/>
-        <activity android:name=".Colors"
-            android:label="Colors"/>
-        <activity android:name=".FamilyMembers"
-            android:label="Family Member"
-            android:colorMode="hdr"/>
-        <activity android:name=".NumbersActivity"
-            android:label="Numbers"/>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Phrases"
+            android:label="Phrases" />
+        <activity
+            android:name=".Colors"
+            android:label="Colors" />
+        <activity
+            android:name=".FamilyMembers"
+            android:colorMode="hdr"
+            android:label="Family Member" />
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Numbers" />
+        <activity android:name=".MainActivity"/>
+            <activity android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
