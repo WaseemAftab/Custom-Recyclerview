@@ -3,3 +3,4 @@ Recyclerview example for beginner. each activity contain in app have different c
 ## Preview
 <img src="https://github.com/Wassi01/Custom-Recyclerview/blob/master/images/Screenshot_2020-01-30-01-13-08.png" width="250" />
 <img src="https://github.com/Wassi01/Custom-Recyclerview/blob/master/images/Screenshot_2020-01-30-01-13-14.png" width="250" />
+<img src="https://github.com/Wassi01/Custom-Recyclerview/blob/master/images/Screenshot_2020-01-30-01-13-20.png" width="250" />
